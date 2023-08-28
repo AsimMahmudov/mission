@@ -222,7 +222,7 @@ iframe {
   align-items: center;
   gap: 10px;
   background: var(--grey-80, #0d162f);
-  margin-top: 50px;
+  margin-top: 80px;
 }
 
 .end h1 {
@@ -234,36 +234,73 @@ iframe {
 .animation {
   margin-top: 50px;
 }
+/* 
+@media (max-width: 480px) {
+  .end-text {
+    width: 400px;
+    overflow: clip;
+    margin-left: 20px;
+  }
+}
 
 @media (max-width: 480px) {
   .end {
-    width: 435px;
+    overflow: clip;
   }
-}
+} */
 
 @media (max-width: 480px) {
   .people {
     flex-wrap: wrap;
   }
-  .people img {
+}
+
+@media (max-width: 480px) {
+  .image {
+    /* flex-wrap: wrap; */
     width: 440px;
     height: 344px;
+    overflow: clip;
   }
 }
 
 @media (max-width: 480px) {
-  .contact {
-    flex-wrap: wrap;
+  .image img {
+    /* flex-wrap: wrap; */
+    width: 440px;
+    height: 344px;
+    /* overflow: clip; */
   }
 }
 
 @media (max-width: 480px) {
   .contact-text {
-    width: 440px;
-    height: 344px;
+    width: 400px;
+    height: 400px;
+    margin-left: 20px;
+    padding: 50px;
+    overflow: clip;
   }
+}
+
+@media (max-width: 480px) {
+  .contact {
+    overflow: clip;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 480px) {
   .carte {
-    width: 440px;
-    height: 344px;
+    width: 400px;
+    height: 241px;
+    margin-left: 20px;
+    overflow: clip;
+  }
+}
+
+@media (max-width: 480px) {
+  .people-text {
+    overflow: clip;
   }
 }
